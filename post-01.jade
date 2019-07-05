@@ -1,0 +1,54 @@
+doctype html
+head
+	meta(charset='utf-8')
+	meta(http-equiv='x-ua-compatible', content='ie=edge')
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	title Foundation for Sites
+	link(rel="shortcut icon", href="images/favicon.png", type="image/x-icon")
+	link(rel='stylesheet', href='css/app.css')
+
+body.site-wrapper
+
+	//- Top section
+	.top-section.grid-container.grid-y
+		h3 Kochenk
+
+	//- Bagian isi
+	#main-content-section(data-magellan-target='main-content-section')
+
+		//- Bagian artikel
+		#blog.grid-container
+			h1.medium-8.cell Artikel
+			hr
+
+			//- Post
+			.grid-x.grid-margin-x
+				//- Artikel
+				article
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem vestibulum nisi finibus accumsan. Aliquam vulputate nisi ut varius commodo. Aenean mauris leo, mollis eu porta ultrices, porta id augue. Pellentesque est nunc, luctus ut augue a, semper rhoncus eros. Phasellus posuere ipsum id feugiat convallis. Nunc nec pretium neque. Maecenas tincidunt nisl tempor gravida viverra. Curabitur semper lobortis est, in porta justo mollis nec.
+				//- Sidebar
+				aside
+
+	//- Footer
+	footer.grid-x
+		//- .grid-container Kochenk
+		.medium-12.cell.footer-center © 2017-2019 Sekolah Menengah Atas Negeri 12 Bandung
+		//- .grid-container Terbang
+
+	//- Go to top button
+	a#return-to-top(href='javascript:')
+		svg.icon.icon-arrow-top(viewbox='0 0 32 32', aria-hidden='true')
+			path(d='M17.504 26.025l.001-14.287 6.366 6.367L26 15.979 15.997 5.975 6 15.971 8.129 18.1l6.366-6.368v14.291z' fill='white')
+
+script(src='node_modules/jquery/dist/jquery.js')
+script(src='node_modules/what-input/dist/what-input.js')
+script(src='node_modules/foundation-sites/dist/js/foundation.js')
+script(src='js/app.js')

@@ -1,0 +1,256 @@
+doctype html
+head
+	meta(charset='utf-8')
+	meta(http-equiv='x-ua-compatible', content='ie=edge')
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	title SMAN 12 Bandung
+	link(rel="shortcut icon", href="images/favicon.png", type="image/x-icon")
+	link(rel='stylesheet', href='css/app.css')
+
+body.site-wrapper
+
+	//- Fullscreen Slideshow
+	.full-screen
+
+		//- Top Section
+		header.top-content-section
+			nav.top-bar
+				.icon
+				ul.menu.menu-hover-lines
+					li.active
+						a Home
+					li
+						a(href='#blog') Artikel
+					li
+						a(href='#gallery') Galeri
+					li
+						a(href='') Tentang
+					li
+						a(href='') Kontak
+
+		//- Mid Section
+		.middle-content-section
+			h1 SMAN 12 Bandung
+
+		//- Btm Section
+		.bottom-content-section(data-magellan='', data-threshold='0')
+			a(href='#main-content-section')
+				svg(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 24 24')
+					path(d='M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z')
+
+		//- Darken Slideshow img
+		.darken
+
+		//- slideshow
+		ul.cb-slideshow
+			li
+				span
+			li
+				span
+			li
+				span
+			li
+				span
+
+	//- Bagian isi
+	#main-content-section(data-magellan-target='main-content-section')
+
+		//- Bagian artikel
+		#blog.grid-container
+			.grid-x.grid-margin-x
+				h1.medium-8.cell Artikel
+
+				//- Search Form
+				.searchform.medium-4.cell
+					.search__container
+						p.search__title
+						input.search__input(type='text', placeholder='Sedang Mencari Sesuatu?')
+
+			//- Garis
+			hr
+
+			//- Post
+			.grid-x.grid-margin-x
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="./post-01.html").card-image
+						img(src='https://images.unsplash.com/photo-1511629091441-ee46146481b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="./post-01.html").card-section
+						h3.article-title Ini judul
+						.article-details
+							span.time 2020
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat.
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Bambang
+
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="#").card-image
+						img(src='https://images.unsplash.com/photo-1441034281545-78296c3a6934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="#").card-section
+						h3.article-title Ini tempat judul
+						.article-details
+							span.time 2077
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat.
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Susi
+
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="#").card-image
+						img(src='https://images.unsplash.com/photo-1495968283540-e1df41995ba6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="#").card-section
+						h3.article-title Ini juga
+						.article-details
+							span.time 12 5x
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat.
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Rudi
+
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="#").card-image
+						img(src='https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="#").card-section
+						h3.article-title Ini judul
+						.article-details
+							span.time 30 Februari 2019
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat. 
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Susilo
+
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="#").card-image
+						img(src='https://images.unsplash.com/photo-1527891751199-7225231a68dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="#").card-section
+						h3.article-title Ini judul
+						.article-details
+							span.time 30 Februari 2019
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat. 
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Barjo
+
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="#").card-image
+						img(src='https://images.unsplash.com/photo-1534643960519-11ad79bc19df?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="#").card-section
+						h3.article-title Ini judul
+						.article-details
+							span.time 30 Februari 2019
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat. 
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Asep
+
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="#").card-image
+						img(src='https://images.unsplash.com/photo-1464983308776-3c7215084895?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="#").card-section
+						h3.article-title Ini judul
+						.article-details
+							span.time 30 Februari 2019
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat. 
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Ocha
+
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="#").card-image
+						img(src='https://images.unsplash.com/photo-1544776193-32d404ae608a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=887&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="#").card-section
+						h3.article-title Ini judul
+						.article-details
+							span.time 30 Februari 2019
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat. 
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Nina
+
+				.card-flex-article.card.medium-6.large-4.cell
+					a(href="#").card-image
+						img(src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80')
+						span.label.alert.card-tag #Kochenk
+					a(href="#").card-section
+						h3.article-title Ini judul
+						.article-details
+							span.time 30 Februari 2019
+						p.article-summary Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum dolor mauris, a cursus ligula mattis eu. Vestibulum ullamcorper erat.
+					a(href="#").card-divider.align-middle
+						.avatar.with-add-icon
+							img(src='https://placehold.it/35', alt='avatar')
+							i.fa.fa-plus-circle(aria-hidden='true')
+						.user-info
+							p.user-name Nani
+
+			.pagination
+				ul
+					//- a(href='#')
+						li Previous
+					a.is-active
+						li 1
+					a
+						li 2
+					a
+						li 3
+					a
+						li 4
+					a
+						li 5
+					a
+						li 6
+					a
+						li Next
+
+		//- #gallery.grid-container
+			h1 Galeri
+			hr
+			p Kocheng
+
+	//- Footer
+	footer.grid-x
+		//- .grid-container Kochenk
+		.medium-12.cell.footer-center © 2017-2019 Sekolah Menengah Atas Negeri 12 Bandung
+		//- .grid-container Terbang
+
+	//- Go to top button
+	a#return-to-top(href='javascript:')
+		svg.icon.icon-arrow-top(viewbox='0 0 32 32', aria-hidden='true')
+			path(d='M17.504 26.025l.001-14.287 6.366 6.367L26 15.979 15.997 5.975 6 15.971 8.129 18.1l6.366-6.368v14.291z' fill='white')
+
+script(src='node_modules/jquery/dist/jquery.js')
+script(src='node_modules/what-input/dist/what-input.js')
+script(src='node_modules/foundation-sites/dist/js/foundation.js')
+script(src='js/app.js')
